@@ -1,0 +1,11 @@
+{
+  "name": "simpos-mono",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --filter \"simpos\" dev",
+    "build:web": "pnpm --filter \"simpos\" build",
+    "preinstall": "npx only-allow pnpm"
+  }
+}
